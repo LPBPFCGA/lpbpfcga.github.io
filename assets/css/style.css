@@ -36,6 +36,10 @@ body, html {
   font-family: "Open Sans", sans-serif;
 }
 
+mark {
+  background-color: yellow;
+}
+
 hr.new1 {
   border-top: 1px solid #fca311;
   max-width: 70%;
