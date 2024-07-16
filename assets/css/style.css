@@ -126,6 +126,9 @@ a:active {
   .hero {
     height: 45%
   }
+  .mobile-only {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -133,7 +136,10 @@ a:active {
       display: none;
   }
   .hero {
-    height: 30%
+    height: 40%
+  }
+  .row-omit {
+    display: none;
   }
 }
 
@@ -179,6 +185,22 @@ section.hero {
 }
 
 .row {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row-omit {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mobile-only {
   max-width: 70%;
   margin: auto;
   overflow: hidden;
