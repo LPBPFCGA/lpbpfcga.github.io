@@ -16,6 +16,7 @@ li {
 p1 {
   display: block;
   margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 18px;
 }
 
@@ -141,7 +142,7 @@ a:active {
   .hero {
     height: 45%
   }
-  .mobile-only {
+  .pc-only {
     display: none;
   }
 }
@@ -156,7 +157,7 @@ a:active {
   .row-omit {
     display: none;
   }
-  .pc-only {
+  .mobile-only {
     display: none;
   }
 }
