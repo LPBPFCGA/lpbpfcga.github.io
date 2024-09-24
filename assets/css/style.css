@@ -142,7 +142,7 @@ a:active {
   .hero {
     height: 45%
   }
-  .pc-only {
+  .mobile-only {
     display: none;
   }
 }
@@ -157,7 +157,7 @@ a:active {
   .row-omit {
     display: none;
   }
-  .mobile-only {
+  .pc-only {
     display: none;
   }
 }
