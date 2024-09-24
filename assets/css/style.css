@@ -219,14 +219,6 @@ section.hero {
   padding-bottom: 20px;
 }
 
-.pc-only {
-  max-width: 70%;
-  margin: auto;
-  overflow: hidden;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .button {
   background-color: #ddd;
   border: none;
