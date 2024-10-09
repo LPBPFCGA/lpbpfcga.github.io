@@ -154,9 +154,6 @@ a:active {
   .hero {
     height: 40%
   }
-  .row-omit {
-    display: none;
-  }
   .pc-only {
     display: none;
   }
